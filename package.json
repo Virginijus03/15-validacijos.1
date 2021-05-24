@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "dev": "nodemon .",
+    "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Virginijus Klimauskas",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "nodemon": "^2.0.7"
   }
 }

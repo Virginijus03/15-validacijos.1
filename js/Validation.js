@@ -3,6 +3,16 @@ class Validation {
         if (!this.isValidLastName(firstName)) {
             return false;
         }
+        if (firstName.length < 2) {
+            return false;
+        }
+        if (firstName[0].toLowerCase() === firstName[0]) {
+            return false;
+        }
+        if (firstName.slize(1).toLowerCase() !== firstName.sleze(1)) {
+            return false;
+
+        }
         return true;
     }
 

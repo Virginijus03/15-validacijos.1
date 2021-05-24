@@ -1,8 +1,8 @@
-const Validation = require('./js/Validation0');
+const Validation = require('./js/Validation');
 
 const v = new Validation();
 
-//console.log(v.isValidFirstName('Vardenis'), true);
+console.log(v.isValidFirstName('Vardenis'), true);
 //console.log(v.isValidFirstName('Some message'), true);
 //console.log(v.isValidFirstName(12345), false);
 //console.log(v.isValidFirstName('12345'), true);
@@ -12,7 +12,12 @@ const v = new Validation();
 //console.log(v.isValidFirstName([1,2,5,]), false);
 //console.log(v.isValidFirstName([]), false);
 //console.log(v.isValidFirstName('bla Bla'), false);
-//console.log(v.isValidFirstName(''), false)
+//console.log(v.isValidFirstName(''), false);
+//console.log(v.isValidFirstName('Virginijus'), true);
+//console.log(v.isValidFirstName('virginijus'), false);
+//console.log(v.isValidFirstName('VirGinijus'), false);
+//console.log(v.isValidFirstName('Virginiju5'), false);
+//console.log(v.isValidFirstName('Virg nijus'), false);
 
 //console.log(v.isValidLastName('Pavardenis'), true);
 //console.log(v.isValidLastName('Some message'), true);
@@ -40,7 +45,7 @@ const v = new Validation();
 //console.log(v.isValidMessage('bla Bla'), false);
 //console.log(v.isValidMessage(''), false)
 
-console.log(v.isValidPhoneNumber(+37061234567), true);
+//console.log(v.isValidPhoneNumber(+37061234567), true);
 
 //console.log(v.isValidMonthName('Sausis'), true);
 //console.log(v.isValidMonthName('January'), true);

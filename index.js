@@ -2,7 +2,7 @@ const Validation = require('./js/Validation');
 
 const v = new Validation();
 
-console.log(v.isValidFirstName('Vardenis'), true);
+//console.assert(v.isValidFirstName('Vardenis') === true, 'ERROR');
 //console.log(v.isValidFirstName('Some message'), true);
 //console.log(v.isValidFirstName(12345), false);
 //console.log(v.isValidFirstName('12345'), true);
